@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yama</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img class="bgImg" src="img/Yama-removebg-preview.png">
+            <div class="song_side">
+                <nav>
+                    <ul>
+                        <li>Discover<span></span></li>
+                        <li>MY LIBRARY</li>
+                        <li>RADIO</li>
+                    </ul>
+                    <div class="search">
+                        <img src="img/search.svg" alt="search">
+                        <input type="text" placeholder="search music...">
+                    </div>
+                    <div class="user">
+                        <img src="img/download.jfif" alt="user">
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="Playlist-left">
+            <li class="songItem">
+                <span>01</span>
+                <img id="songImage" src="img/BLACKEDOUT.jpeg" alt="Villain777">
+                <i class="bi playListPlay bi-play-circle-fill"></i>
+                <h1>
+                    BLACKED OUT
+                    <div class="subtitle">Villain777</div>
+                </h1>
+            </li>
+            <li class="songItem">
+                <span>02</span>
+                <img id="songImage" src="img/BLACKEDOUT.jpeg" alt="Villain777">
+                <i class="bi playListPlay bi-play-circle-fill"></i>
+                <h1>
+                    BLACKED OUT
+                    <div class="subtitle">Villain777</div>
+                </h1>
+            </li>
+            <li class="songItem">
+                <span>03</span>
+                <img id="songImage" src="img/BLACKEDOUT.jpeg" alt="Villain777">
+                <i class="bi playListPlay bi-play-circle-fill"></i>
+                <h1>
+                    BLACKED OUT
+                    <div class="subtitle">Villain777</div>
+                </h1>
+            </li>
+            <li class="songItem">
+                <span>04</span>
+                <img id="songImage" src="img/BLACKEDOUT.jpeg" alt="Villain777">
+                <i class="bi playListPlay bi-play-circle-fill"></i>
+                <h1>
+                    BLACKED OUT
+                    <div class="subtitle">Villain777</div>
+                </h1>
+            </li>
+            <li class="songItem">
+                <span>05</span>
+                <img id="songImage" src="img/BLACKEDOUT.jpeg" alt="Villain777">
+                <i class="bi playListPlay bi-play-circle-fill"></i>
+                <h1>
+                    BLACKED OUT
+                    <div class="subtitle">Villain777</div>
+                </h1>
+            </li>
+            <li class="songItem">
+                <span>06</span>
+                <img id="songImage" src="img/BLACKEDOUT.jpeg" alt="Villain777">
+                <i class="bi playListPlay bi-play-circle-fill"></i>
+                <h1>
+                    BLACKED OUT
+                    <div class="subtitle">Villain777</div>
+                </h1>
+            </li>
+        </div>
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+
+            <img src="img/BLACKEDOUT.jpeg" alt="Villain777" id="poster_master_play">
+            <h1 id="title">BLACKED OUT<br>
+                <div class="subtitle">Villain777</div>
+            </h1>
+        </div>
+
+        <div class="rightSidebar"></div>
+        <div class="article">
+
+        </div>
+        <div class="footer">
+            <img class="icon" id="preImg" src="img/skip-start-fill.svg" alt="pre">
+            <img class="icon" id="playImg" src="img/play-circle-fill.svg" alt="play">
+            <img class="icon" id="skipImg" src="img/skip-end-fill.svg" alt="skip">
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+                <div class="vol">
+                    <div class="volIcon"><img src="img/volume-down-fill.svg" alt="volume"></div>
+                    <input type="range" id="vol" min="0" value="30" max="100">
+                    <div class="vol_bar"></div>
+                    <div class="dot" id="vol_dot"></div>
+                </div>
+            </div>
+            <audio id="mySong">
+                <source src="audio/BLACKEDOUT.mp3" type="audio/mp3">
+                <source src="audio/Take A Step Back.mp3" type="audio/mp3">
+                <source src="audio/Michael Jackson - Beat It (Official Video).mp3" type="audio/mp3">
+                <source src="audio/1nonly - SHAKIRA! (ft. EGOVERT).mp3" type="audio/mp3">
+                <source src="audio/Sleepy Hallow - 2055 (Official Video).mp3" type="audio/mp3">
+                <source src="audio/Kayem2x x RSL - Steady (Birkin Bop) (Music Video)  @MixtapeMadness.mp3"
+                    type="audio/mp3">
+            </audio>
+        </div>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
